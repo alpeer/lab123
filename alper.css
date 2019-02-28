@@ -1,0 +1,56 @@
+body {
+    background: #Eee;
+    margin: 0;
+    padding: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+textarea.sayılar {
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 16px;
+    font-size: 18px;
+    margin: 0;
+	font-family:monospace;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 4px 11px;
+    font-size: 16px;
+    box-shadow: 0 0 0 1px;
+    padding: 10px;
+}
+
+.sonuç, .zaman {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+.düğmelik {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#girdi {
+    display: grid;
+    grid-template-rows: auto auto;
+    /* grid-gap: 10px; */
+    width: 402px;
+    box-shadow: 0 0 0 1px;
+}
+.sonuçlar,.zamanlar {
+    box-shadow: 0 0 0 1px;
+    background: #eeF;
+    width: 100%;
+	    font-family: monospace;
+}
+button#denkgele {
+    margin-left: 1px;
+}	
